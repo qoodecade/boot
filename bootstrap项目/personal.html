@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<link rel="stylesheet" href="js/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--网页结构搭建-->
+		<!--顶部导航条-->
+		<div id="el_top" class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#xxx">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<ul class="nav navbar-nav navbar-right" id="xxx">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="personal.html" class="color1">小强</a>
+					</li>
+					<li>
+						<a href="recharge.html">账户充值</a>
+					</li>
+					<li>
+						<a href="#">注销</a>
+					</li>
+					<li>
+						<a href="#">帮助</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部导航条结束-->
+		<!--网页导航条-->
+		<div class="nav navbar navbar-default" id="el_nav">
+			<div class="container">
+				<div class="navbar-header">
+					<img src="images/logo.png" />
+				</div>
+				<ul class="nav navbar-nav " style="text-align: center;">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="invest.html">我要投资</a>
+					</li>
+					<li>
+						<a href="borrow.html">我要借款</a>
+					</li>
+					<li class="active">
+						<a href="personal.html">个人中心</a>
+					</li>
+					<li>
+						<a href="#">新手指引</a>
+					</li>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--网页导航结束-->
+		
+		<!--网页内容开始-->
+		<div class="container" id="el_personal">
+			<div class="row">
+				<!--页面导航-->
+				<div class="el_personal_item col-sm-3">
+					
+					<ul class="list-group">
+					  <li class="list-group-item"> <a href="#">投资项目</a></li>
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">借款项目</a></li>
+					  <li class="list-group-item"><a href="#">借款项目</a></li>
+					  <li class="list-group-item"><a href="#">还款明细</a></li>
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">我的账户</a></li>
+					  <li class="list-group-item active"><a href="#">账户信息</a></li>
+					  <li class="list-group-item"><a href="#">实名认证</a></li>
+					  <li class="list-group-item"><a href="#">银行卡管理</a></li>
+					  <li class="list-group-item"><a href="#">登录记录</a></li>
+					  
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">资产详情</a></li>
+					  <li class="list-group-item"><a href="#">账户流水</a></li>
+					  <li class="list-group-item"><a href="#">充值明细</a></li>
+					  <li class="list-group-item"><a href="#">提现记录</a></li>
+					  <li class="list-group-item"><a href="#">收款明细</a></li>
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">个人资料</a></li>
+					</ul>
+				</div>
+
+		<!--功能页面-->
+				<div class="el_personal_item col-sm-9 container">
+					<div class="panel panel-default">
+				 		<div class="panel-heading">
+				 			<div class="row">
+				  				<img src="images/head_icon.jpg" class="img2 col-sm-2" alt="Responsive image">
+				  			<div class="col-sm-7 pull-left">
+								<p>昵 称：源代码教育</p>
+								<p>用户名：小强</p>
+								<p>最后登录时间：2016-10-25 15:30:10</p>
+							</div>
+				  			</div>
+				 		</div>
+					  	<div class="panel-body">
+					  		<div class="row h4">
+								<div class="col-sm-4">
+									总金额：<span class="text-primary">10000元</span>
+								</div>
+								<div  class="col-sm-4">
+								可用金额：<span class="text-primary">8000元</span>
+								</div>
+								<div  class="col-sm-4">
+									冻结金额：<span class="text-primary">2000元</span>
+								</div>
+							</div>
+					 	</div>
+				  		<div class="b1">
+				  			<a class="btn btn-primary btn-lg" href="recharge.html">账户充值</a>
+							<a class="btn btn-danger btn-lg" href="moneyWithdraw_apply.html">账户提现</a>
+						</div>
+						<!--上半段-->
+						<div class="row el_s1">
+							<div class="col-sm-4">
+								<img src="images/shiming.png" class="img-responsive col-sm-4" alt="Responsive image">
+								<div class="col-sm-8 t1">
+									<h5>实名认证</h5>
+									<p>未认证<a href="#">马上认证</a></p>
+								</div>
+								<div class="clearfix"></div>
+								<p class="info">实名认证之后才能在平台投资</p>
+							</div>
+							<div class="col-sm-4">
+								<img src="images/shouji.jpg" class="img-responsive col-sm-4" alt="Responsive image">
+								<div class="col-sm-8 t1">
+									<h5>实名认证</h5>
+									<p>未认证<a href="#">马上认证</a></p>
+								</div>
+								<div class="clearfix"></div>
+								<p class="info">实名认证之后才能在平台投资</p>
+							</div>
+							<div class="col-sm-4">
+								<img src="images/youxiang.jpg" class="img-responsive col-sm-4" alt="Responsive image">
+								<div class="col-sm-8 t1">
+									<h5>实名认证</h5>
+									<p>未认证<a href="#">马上认证</a></p>
+								</div>
+								<div class="clearfix"></div>
+								<p class="info">实名认证之后才能在平台投资</p>
+							</div>
+							<div class="col-sm-4">
+								<img src="images/baozhan.jpg" class="img-responsive col-sm-4" alt="Responsive image">
+								<div class="col-sm-8 t1">
+									<h5>实名认证</h5>
+									<p>未认证<a href="#">马上认证</a></p>
+								</div>
+								<div class="clearfix"></div>
+								<p class="info">实名认证之后才能在平台投资</p>
+							</div>
+						</div>
+							
+							
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--网页内容结束-->
+		<!--尾部开始-->
+			<div class="row" id="el_text">
+				<div class="container">
+					<div class="col-sm-8">
+						<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+						<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+						<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+						<p>电  话： 028-86261949 / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+						<p>
+							<a href="#">蜀ICP备14030149号-1 </a>
+							<a href="#">蜀公网安备510114990541</a>
+						</p>
+					</div>
+					<div class="col-sm-2">
+						<p>官方微博：</p>
+						<a href="#"><img src="images/sina.png" class="img-responsive" alt="Responsive image"></a>
+						<a href="#"><img src="images/tecent.png" class="img-responsive" alt="Responsive image"></a>
+					</div>
+					<div class="col-sm-2">
+						<p>官方微信：</p>
+						<a href="#"><img src="images/wx.jpg" class="img-responsive" alt="Responsive image"></a>
+					</div>
+				</div>
+
+			</div>
+			<!--尾部结束-->
+		
+	</body>
+</html>

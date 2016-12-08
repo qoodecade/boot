@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ZS借款</title>
+		<link rel="stylesheet" href="js/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--网页结构搭建-->
+		<!--顶部导航条-->
+		<div id="el_top" class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#xxx">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<ul class="nav navbar-nav navbar-right" id="xxx">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="login.html">登录</a>
+					</li>
+					<li>
+						<a href="register.html">快速注册</a>
+					</li>
+					<li>
+						<a href="personal.html" class="color1">小强</a>
+					</li>
+					<li>
+						<a href="recharge.html">账户充值</a>
+					</li>
+					<li>
+						<a href="#">注销</a>
+					</li>
+					<li>
+						<a href="#">帮助</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部导航条结束-->
+		<!--网页导航条-->
+		<div class="nav navbar navbar-default" id="el_nav">
+			<div class="container">
+				<div class="navbar-header">
+					<img src="images/logo.png" />
+				</div>
+				<ul class="nav navbar-nav " style="text-align: center;">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="invest.html">我要投资</a>
+					</li>
+					<li>
+						<a href="borrow.html">我要借款</a>
+					</li>
+					<li class="active">
+						<a href="personal.html">个人中心</a>
+					</li>
+					<li>
+						<a href="#">新手指引</a>
+					</li>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--网页导航结束-->
+		<div class="container" id="el_borrow_info">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="panel panel-default">
+					  <div class="panel-heading">借款人</div>
+					  <div class="panel-body">
+						  <img src="images/head_icon.jpg" class="img-responsive" alt="Responsive image">
+						  <p class="text-center"><a href="#">ZS</a></p>
+						  <div class="m1">籍贯： 四川 - 成都</div>
+						  <div>专职客服：<a>码妹妹</a></div>
+						  <div>
+						  	认证信息：
+						  	<label class="label label-success">
+								<span class="glyphicon glyphicon-user"></span>
+							</label>
+						  </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<h3 class="text-info">
+						zs借款
+						<small><label class="label label-primary">信</label></small>
+					</h3>
+					<div class="d1">
+						<p class="text-muted">借款金额
+							<span class="text-info t3">2,000.00</span>
+						</p>
+						<p class="text-muted">年化利率
+							<span class="text-info t3">10.00%</span>
+						</p>
+						<p class="text-muted">借款期限
+							<span class="text-info t3">3月</span>
+						</p>
+						<p class="text-muted">投标奖励
+							<span class="text-info t3">0.00</span>
+						</p>
+						<p class="text-muted">还款方式
+							<span class="text-info t3">按月分期还款</span>
+						</p>
+						<p class="text-muted">最小投标
+							<span class="text-info t3">2,000.00</span>
+						</p>
+						<p class="text-muted">借款金额
+							<span class="text-info t3">20.00</span>
+						</p>
+						<p class="text-muted">剩余时间
+							<span></span>
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="d1">
+						<p class="text-muted">投标总数
+							<span class="text-info t3">2</span>
+						</p>
+						<p class="text-muted">还需金额
+							<span class="text-info t3">0.00元</span>
+						</p>
+						<p class="text-muted">投标进度</p>
+						<div class="progress">
+							<div class="progress-bar progress-bar-info progress-bar-striped"></div>
+						</div>
+						<h4 class="text-primary">还款中</h4>
+				</div>
+			</div>
+		</div>
+		<!--借款人结束-->
+		<!--信息开始-->
+		<div class="panel panel-default">
+		  <div class="panel-heading">借款人信息</div>
+		  <div class="panel-body">
+		  		<div class="d3">
+						<span class="text-muted t6">注册时间	
+							<span class="text-info t5">2015-03-30</span>
+						</span>
+						<span class="text-muted t6">借款额度	
+							<span class="text-info t5">2000</span>
+						</span>
+						<span class="text-muted t6">性别	
+							<span class="text-info t5">男</span>
+						</span>
+						<span class="text-muted t6">年龄
+							<span class="text-info t5">25</span>
+						</span>
+				</div>
+				<div class="d4">
+					<span class="text-muted t6">文化程度
+							<span class="text-info t5">硕士研究生&nbsp;&nbsp;</span>
+					</span>
+					<span class="text-muted t6">每月收入	
+							<span class="text-info t5">3000-4999</span>
+					</span>
+				</div>
+		  </div>
+		</div>
+		<!--信息结束-->
+		<!--审核信息开始-->
+			<div class="panel panel-default">
+			  <div class="panel-heading">审核认证信息</div>
+			  <div class="panel-body">
+			  		<div class="d3">
+							<span class="text-muted t6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;认证时态度
+								<span class="text-info t5">优</span>
+							</span>
+							<span class="text-muted t6">信贷知识掌握情况		
+								<span class="text-info t5">优</span>
+							</span>
+							<span class="text-muted t6">借款感言
+								<span class="text-info t5">给我2000度过难关</span>
+							</span>
+					</div>
+					<div class="d4">
+						<span class="text-muted t6">审核员认证意见
+								<span class="text-info t5">啊啊啊啊啊</span>
+						</span>
+					</div>
+			  </div>
+			</div>
+		<!--审核信息结束-->
+		<!--材料信息开始-->
+		<div class="panel panel-default">
+		  <div class="panel-heading">材料信息</div>
+		  <div class="panel-body">
+			  <table class="table">
+			 	  <thead>
+				 	  <tr>
+					 	  <th>材料类型</th>
+					 	  <th>材料数量</th>
+				 	  </tr>
+			 	  </thead>
+	 			  <tbody>
+	 			  	<tr>
+	 			  		<th>本人身份证</th>
+	 			  		<td>2</td>
+	 			  	</tr>
+	 			  </tbody>
+			  </table>
+		  </div>
+		</div>
+		<!--材料信息结束-->
+		<!--还款情况开始-->
+		<div class="panel panel-default">
+			<div class="panel-heading">还款情况</div>
+			<div class="panel-body">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>还款状态</th>
+							<th>最近一周</th>
+							<th>最近1月</th>
+							<th>最近6月</th>
+							<th>6个月前</th>
+							<th>总计[?]</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>提前还款</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>提前还款</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>提前还款</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>提前还款</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>提前还款</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!--还款情况结束-->
+		<!--投标记录开始-->
+		<div class="panel panel-default">
+		  <div class="panel-heading">投标记录</div>
+		  <div class="panel-body">
+			  <table class="table">
+			 	  <thead>
+				 	  <tr>
+					 	  <th>投标人</th>
+					 	  <th>年利率</th>
+					 	  <th>有效金额(¥)</th>
+					 	  <th>投标时间</th>
+					 	  <th>类型</th>
+				 	  </tr>
+			 	  </thead>
+	 			  <tbody>
+		 			  	<tr>
+		 			  		<td>si*****</td>
+		 			  		<td>10%</td>
+		 			  		<td class="text-info">1,000.00</td>
+		 			  		<td>2016-05-11 06:42:11</td>
+		 			  		<td>手动投标</td>
+		 			  	</tr>
+		 			  	<tr>
+		 			  		<td>xia*****</td>
+		 			  		<td>10%</td>
+		 			  		<td class="text-info">1,000.00</td>
+		 			  		<td>2016-05-12 13:44:01</td>
+		 			  		<td>手动投标</td>
+		 			  	</tr>
+	 			  </tbody>
+			  </table>
+		  </div>
+		</div>
+		<!--投标记录结束-->
+		
+	</div>	
+	<!--尾部开始-->
+		<div class="row" id="el_text">
+			<div class="container">
+				<div class="col-sm-8">
+					<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+					<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+					<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+					<p>电  话： 028-86261949 / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+					<p>
+						<a href="#">蜀ICP备14030149号-1 </a>
+						<a href="#">蜀公网安备510114990541</a>
+					</p>
+				</div>
+				<div class="col-sm-2">
+					<p>官方微博：</p>
+					<a href="#"><img src="images/sina.png" class="img-responsive" alt="Responsive image"></a>
+					<a href="#"><img src="images/tecent.png" class="img-responsive" alt="Responsive image"></a>
+				</div>
+				<div class="col-sm-2">
+					<p>官方微信：</p>
+					<a href="#"><img src="images/wx.jpg" class="img-responsive" alt="Responsive image"></a>
+				</div>
+			</div>
+
+		</div>
+		<!--尾部结束-->
+	</body>
+</html>

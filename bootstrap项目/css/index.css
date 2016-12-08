@@ -1,0 +1,493 @@
+#el_top {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+#el_top a {
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+#el_top a:hover {
+  color: skyblue;
+  text-decoration: underline;
+}
+#el_top .color1 {
+  color: #219CFF;
+}
+#el_nav a {
+  color: #9D9D9D;
+  font-size: 20px;
+  line-height: 50px;
+}
+#el_nav a:hover {
+  color: #ADADAD;
+  background-color: #CCCCCC;
+}
+#el_nav .el_register {
+  font-size: 24px;
+  color: #2E8ECE;
+  font-weight: bold;
+  line-height: 80px;
+  margin-left: 10px;
+}
+#el_nav .navbar-brand {
+  height: 80px;
+  line-height: 80px;
+}
+#el_nav .navbar-header {
+  line-height: 80px;
+}
+#el_feature {
+  margin-top: 10px;
+}
+#el_feature dl {
+  padding-left: 80px;
+  min-height: 80px;
+}
+#el_feature .img01 {
+  background: url("../images/feature01.png") no-repeat;
+}
+#el_feature .img02 {
+  background: url("../images/feature02.png") no-repeat;
+}
+#el_feature .img03 {
+  background: url("../images/feature03.png") no-repeat;
+}
+#el_table {
+  margin-top: 10px;
+}
+#el_table span:nth-child(1) {
+  color: #2E8ECE;
+  font-size: 26px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  border-bottom: 4px solid #2e8ece;
+}
+#el_table .panel-heading {
+  padding: 0 0 2px;
+}
+#el_table .pull-right {
+  padding-top: 10px;
+}
+#el_table .table td a {
+  color: #fff;
+}
+#el_feature .aa {
+  color: #2E8ECE;
+  font-size: 26px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  border-bottom: 4px solid #2e8ece;
+}
+#form-horizontal {
+  margin: 10px 120px 20px;
+}
+#form-horizontal .h4 {
+  margin: 10px 120px 20px;
+  color: #999;
+}
+#form-horizontal .help-block {
+  margin: 10px;
+}
+#form-horizontal .col-sm-10 {
+  width: 30%;
+}
+#el_text {
+  background-color: #F8F8F8;
+  height: 100%;
+}
+#el_text .container {
+  margin-top: 20px;
+}
+#el_invest {
+  margin-bottom: 50px;
+}
+#el_invest p {
+  font-size: 20px;
+  font-family: "微软雅黑";
+}
+#el_invest span {
+  color: #9D9D9D;
+  font-family: "微软雅黑";
+  margin-right: 20px;
+}
+#el_invest thead {
+  color: #999999;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+#el_invest tbody {
+  margin-top: 20px;
+}
+#el_invest tbody td a {
+  color: #fff;
+}
+#el_borrow .panel {
+  border: none;
+}
+#el_borrow .el_title1,
+#el_borrow .el_title2,
+#el_borrow .el_title3 {
+  line-height: 48px;
+  padding-left: 20px;
+  background-color: #F9F9F9;
+}
+#el_borrow .el_title1 {
+  background-color: #40d47e;
+}
+#el_borrow .el_title2 {
+  background-color: #EC7E20;
+}
+#el_borrow .el_title3 {
+  background-color: #2CA2EE;
+}
+#el_borrow .bb {
+  margin-left: 10px;
+  font-size: 26px;
+  color: #fff;
+}
+#el_borrow .p1 {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  margin-bottom: 10px;
+}
+#el_borrow p {
+  margin: 0;
+}
+#el_borrow .help-block {
+  margin: 10px 0;
+}
+#el_borrow li {
+  list-style: none;
+  color: #555555;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  background: url("../images/sequare.png") no-repeat;
+  padding-left: 20px;
+}
+#el_borrow button a {
+  color: #fff;
+  font-family: "微软雅黑";
+}
+#el_borrow .btn {
+  border-radius: 15px;
+  margin-left: 38%;
+}
+#el_personal {
+  margin-bottom: 50px;
+}
+#el_personal .list-group-item:first-child {
+  background-color: #F5F5F5;
+}
+#el_personal .list-group {
+  margin: 0;
+}
+#el_personal .list-group-item {
+  border-radius: 0;
+  border-top: 0;
+}
+#el_personal .active a {
+  color: #fff;
+}
+#el_personal .panel-body {
+  margin: 10px 2px;
+  font-family: "微软雅黑";
+}
+#el_personal .panel-heading {
+  background-color: #fff;
+}
+#el_personal .b1 {
+  text-align: center;
+}
+#el_personal .el_s1 {
+  margin-top: 30px;
+}
+#el_personal .img2 {
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+}
+#el_personal .panel-heading {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 16px;
+}
+#el_personal h5 {
+  font-weight: bold;
+}
+#el_personal .info {
+  margin-left: 20px;
+}
+#el_personal .img-responsive {
+  padding-top: 10px;
+}
+#el_personal .t1 {
+  padding: 0;
+}
+#el_bid_request_list {
+  margin-bottom: 50px;
+}
+#el_bid_request_list .list-group-item:first-child {
+  background-color: #F5F5F5;
+}
+#el_bid_request_list .list-group {
+  margin: 0;
+}
+#el_bid_request_list .list-group-item {
+  border-radius: 0;
+  border-top: 0;
+}
+#el_bid_request_list .active a {
+  color: #fff;
+}
+#el_bid_request_list .panel-body tbody span {
+  font-family: "微软雅黑";
+}
+#el_userinfo {
+  margin-bottom: 50px;
+}
+#el_userinfo .group1,
+#el_userinfo .group2,
+#el_userinfo .group3,
+#el_userinfo .group4 {
+  background-color: #F5F5F5;
+}
+#el_userinfo .list-group {
+  margin: 0;
+}
+#el_userinfo .list-group-item {
+  border-radius: 0;
+  border-top: 0;
+}
+#el_userinfo .active a {
+  color: #fff;
+}
+#el_userinfo table {
+  font-family: "微软雅黑";
+}
+#el_userinfo select {
+  margin-left: 15px;
+}
+#el_userinfo .where {
+  width: 400px;
+}
+#el_userinfo .t2 {
+  width: 250px;
+}
+#el_userinfo .pull-left {
+  line-height: 35px;
+}
+#el_userinfo .el-borrow-form {
+  position: relative;
+}
+#el_userinfo .el-borrow-form-tip {
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 20px #ddd;
+  padding: 20px 30px;
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+#el_userinfo .el-tip-info {
+  background-color: #F4F8FA;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  border-left: 2px solid #0099DD;
+}
+#el_borrow_info {
+  margin-top: -10px;
+}
+#el_borrow_info .img-responsive {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+#el_borrow_info .panel-body {
+  padding: 20px;
+}
+#el_borrow_info .panel-body p {
+  margin: 0 0 10px;
+}
+#el_borrow_info .panel-body .m1 {
+  margin-top: 30px;
+}
+#el_borrow_info h3 {
+  margin-top: 0;
+  font-family: "微软雅黑";
+  color: #5799DD;
+}
+#el_borrow_info .t3 {
+  color: #5799DD;
+  margin-left: 30px;
+}
+#el_borrow_info .d1,
+#el_borrow_info .d3,
+#el_borrow_info .d4 {
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+#el_borrow_info .progress {
+  margin-bottom: 10px;
+}
+#el_borrow_info .progress-bar {
+  width: 100.00%;
+}
+#el_borrow_info .t4 {
+  font-family: "微软雅黑";
+  width: 20%;
+}
+#el_borrow_info .t5 {
+  color: #5799DD;
+  margin-left: 10px;
+}
+#el_borrow_info .t6 {
+  margin-right: 100px;
+}
+#el_money h3 {
+  font-family: "微软雅黑";
+  color: #5799DD;
+}
+#el_money .el-tip-info {
+  background-color: #F4F8FA;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+  border-left: 2px solid #0099DD;
+}
+#el_money .row {
+  margin: 10px 2px;
+}
+#el_money input,
+#el_money select {
+  width: 30%;
+}
+#el_indexwith {
+  margin-top: 10px;
+}
+#el_indexwith .aa {
+  color: #2E8ECE;
+  font-size: 26px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  border-bottom: 4px solid #2e8ece;
+}
+#el_indexwith .panel-heading {
+  padding: 0 0 2px;
+}
+#el_indexwith .pull-right {
+  padding-top: 10px;
+}
+#el_indexwith .bb a {
+  color: #555;
+  font-family: "微软雅黑";
+}
+#el_realauth {
+  margin-bottom: 50px;
+}
+#el_realauth .list-group-item:first-child {
+  background-color: #F5F5F5;
+}
+#el_realauth .list-group {
+  margin: 0;
+}
+#el_realauth .list-group-item {
+  border-radius: 0;
+  border-top: 0;
+}
+#el_realauth .active a {
+  color: #fff;
+}
+#el_realauth .panel-body {
+  margin: 10px 2px;
+  font-family: "微软雅黑";
+}
+#el_realauth .panel-heading {
+  background-color: #fff;
+}
+#el_realauth #realAuthForm input,
+#el_realauth #realAuthForm select {
+  width: 260px;
+}
+#el_realauth .idCardItem {
+  width: 160px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  padding: 5px;
+}
+#el_realauth .uploadImg {
+  width: 120px;
+  height: 100px;
+  margin-top: 5px;
+}
+#el_realauth .swfupload {
+  left: 0px;
+}
+#el_realauth .uploadify {
+  height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  color: #fff;
+}
+#el_realauth #viewExample {
+  position: relative;
+  left: 50px;
+  top: 60px;
+}
+#el_realauth .uploadExample {
+  width: 200px;
+  height: 130px;
+}
+#el_recharge .title {
+  font-size: 24px;
+  color: #2E8ECE;
+  font-weight: bold;
+  line-height: 80px;
+  margin-left: 10px;
+}
+#el_recharge .h4 {
+  padding: 0px;
+  margin: 0px;
+}
+#el_recharge .s1 {
+  width: 300px;
+}
+#el_recharge .s2 {
+  width: 260px;
+}
+#el_recharge .h3 {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+#bank .el-recharge-table > tbody > tr > td {
+  vertical-align: middle;
+}
+#bank .el-bank {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background: url(../images/bank_list.png) no-repeat;
+}
+#bank .el-bank02 {
+  background-position: 0px -36px;
+}
+#bank .el-bank03 {
+  background-position: 0px -108px;
+}
+#bank .el-recharge-form input {
+  width: 280px;
+}
+#bank .tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 0px 20px;
+}
