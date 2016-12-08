@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我要投资</title>
+		<link rel="stylesheet" href="js/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<!--网页结构搭建-->
+		<!--顶部导航条-->
+		<div id="el_top" class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#xxx">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<ul class="nav navbar-nav navbar-right" id="xxx">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="personal.html" class="color1">小强</a>
+					</li>
+					<li>
+						<a href="recharge.html">账户充值</a>
+					</li>
+					<li>
+						<a href="#">注销</a>
+					</li>
+					<li>
+						<a href="#">帮助</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部导航条结束-->
+		<!--网页导航条-->
+		<div class="nav navbar navbar-default" id="el_nav">
+			<div class="container">
+				<div class="navbar-header">
+					<img src="images/logo.png" />
+				</div>
+				<ul class="nav navbar-nav " style="text-align: center;">
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li class="active">
+						<a href="invest.html">我要投资</a>
+					</li>
+					<li>
+						<a href="borrow.html">我要借款</a>
+					</li>
+					<li>
+						<a href="personal.html">个人中心</a>
+					</li>
+					<li>
+						<a href="#">新手指引</a>
+					</li>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--网页导航结束-->
+		<!--网页内容开始-->
+		<div class="container" id="el_invest">
+			<div>
+				<p>投资列表</p>
+				<span>标的状态</span>
+				<div class="btn-group" role="group" aria-label="...">
+				  <button type="button" class="btn btn-default active">全部</button>
+				  <button type="button" class="btn btn-default">招标中</button>
+				  <button type="button" class="btn btn-default">还款中</button>
+				</div>
+			</div>
+			<!-- Table -->
+			<table class="table table-hover">
+				<thead>
+					<th>借款人</th>
+					<th>借款标题</th>
+					<th>年利率</th>
+					<th>金额</th>
+					<th>还款方式</th>
+					<th>进度</th>
+					<th>操作</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>ZS</td>
+						<td>给我2000度过难关</td>
+						<td class="text-info">10.00%</td>
+						<td class="text-info">2,000.00</td>
+						<td>按月分期还款</td>
+						<td>78.00%</td>
+						<td>
+							<button class="btn btn-danger btn-sm">	
+								<a href="#">查看</a>
+							</button>
+						
+						</td>
+					</tr>
+				</table>
+		</div>
+		<!--网页内容结束-->
+		<!--尾部开始-->
+				<div class="row" id="el_text">
+					<div class="container">
+						<div class="col-sm-8">
+							<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+							<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+							<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+							<p>电  话： 028-86261949 / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+							<p>
+								<a href="#">蜀ICP备14030149号-1 </a>
+								<a href="#">蜀公网安备510114990541</a>
+							</p>
+						</div>
+						<div class="col-sm-2">
+							<p>官方微博：</p>
+							<a href="#"><img src="images/sina.png" class="img-responsive" alt="Responsive image"></a>
+							<a href="#"><img src="images/tecent.png" class="img-responsive" alt="Responsive image"></a>
+						</div>
+						<div class="col-sm-2">
+							<p>官方微信：</p>
+							<a href="#"><img src="images/wx.jpg" class="img-responsive" alt="Responsive image"></a>
+						</div>
+					</div>
+
+				</div>
+		<!--尾部结束-->
+	</body>
+
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>实名认证</title>
+		<link rel="stylesheet" href="js/bootstrap-3.3.2-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--网页结构搭建-->
+		<!--顶部导航条-->
+		<div id="el_top" class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#xxx">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<ul class="nav navbar-nav navbar-right" id="xxx">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#" class="color1">小强</a>
+					</li>
+					<li>
+						<a href="#">账户充值</a>
+					</li>
+					<li>
+						<a href="#">注销</a>
+					</li>
+					<li>
+						<a href="#">帮助</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部导航条结束-->
+			<!--网页导航条-->
+		<div class="nav navbar navbar-default" id="el_nav">
+			<div class="container">
+				<div class="navbar-header">
+					<img src="images/logo.png" />
+				</div>
+				<ul class="nav navbar-nav " style="text-align: center;">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">我要投资</a>
+					</li>
+					<li>
+						<a href="#">我要借款</a>
+					</li>
+					<li class="active">
+						<a href="#">个人中心</a>
+					</li>
+					<li>
+						<a href="#">新手指引</a>
+					</li>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--网页导航结束-->
+		<div class="container" id="el_realauth">
+			<div class="row">
+				<!--页面导航-->
+				<div class="el_personal_item col-sm-3">
+					
+					<ul class="list-group">
+					  <li class="list-group-item"> <a href="#">投资项目</a></li>
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">借款项目</a></li>
+					  <li class="list-group-item"><a href="#">借款项目</a></li>
+					  <li class="list-group-item"><a href="#">还款明细</a></li>
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">我的账户</a></li>
+					  <li class="list-group-item"><a href="#">账户信息</a></li>
+					  <li class="list-group-item active"><a href="#">实名认证</a></li>
+					  <li class="list-group-item"><a href="#">银行卡管理</a></li>
+					  <li class="list-group-item"><a href="#">登录记录</a></li>
+					  
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">资产详情</a></li>
+					  <li class="list-group-item"><a href="#">账户流水</a></li>
+					  <li class="list-group-item"><a href="#">充值明细</a></li>
+					  <li class="list-group-item"><a href="#">提现记录</a></li>
+					  <li class="list-group-item"><a href="#">收款明细</a></li>
+					</ul>
+					<ul class="list-group">
+					  <li class="list-group-item"><a href="#">个人资料</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-9">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							实名认证
+							<button type="button" class="btn btn-success pull-right" id="btn">添加</button>
+						</div>
+						<table class="table table-bordered" id="table">
+							<thead>
+								<tr>
+									<th>id</th>
+									<th>姓名</th>
+									<th>身份证</th>
+									<th>电话</th>
+									<th>城市</th>
+									<th>状态</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!--<tr>
+									<td>1</td>
+									<td>小强</td>
+									<td>52344449999888</td>
+									<td>167898199</td>
+									<td>成都</td>
+									<td>审核失败</td>
+									<td>
+										<button class="btn btn-primary">编辑</button>
+										<button class="btn btn-danger">删除</button>
+										
+									</td>
+								</tr>-->
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>	
+		</div>	
+		<!--模态框开始-->
+		<div class="modal">
+			<div class="modal-header">
+				<div class="modal-title">
+					<h4>添加数据</h4>
+				</div>
+			</div>
+			<div class="modal-body">
+				<form class="form-horizontal" id="form1">
+					<div class="form-gorup">
+						<label class="control-label col-sm-2">姓名</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control"/>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer"></div>
+		</div>
+		<!--模态框结束-->
+		
+			<!--尾部开始-->
+		<div class="row" id="el_text">
+			<div class="container">
+				<div class="col-sm-8">
+					<p>专业Java培训、PHP培训、UI培训、iOS培训、高级Web前端培训机构</p>
+					<p>版权所有： 2006-2015成都源代码教育咨询有限公司</p>
+					<p>地  址： 成都市高新区府城大道西段399号天府新谷1号楼620-625</p>
+					<p>电  话： 028-86261949 / 400-808-6840  邮箱： yuandaima@itsource.cn</p>
+					<p>
+						<a href="#">蜀ICP备14030149号-1 </a>
+						<a href="#">蜀公网安备510114990541</a>
+					</p>
+				</div>
+				<div class="col-sm-2">
+					<p>官方微博：</p>
+					<a href="#"><img src="images/sina.png" class="img-responsive" alt="Responsive image"></a>
+					<a href="#"><img src="images/tecent.png" class="img-responsive" alt="Responsive image"></a>
+				</div>
+				<div class="col-sm-2">
+					<p>官方微信：</p>
+					<a href="#"><img src="images/wx.jpg" class="img-responsive" alt="Responsive image"></a>
+				</div>
+			</div>
+
+		</div>
+		<!--尾部结束-->
+			<script type="text/jscript" src="js/jquery/jquery-2.1.3.js"></script>
+			<script type="text/jscript" src="js/bootstrap-3.3.2-dist/js/bootstrap.js"></script>
+			<script type="text/javascript">
+				$(function(){
+    			$.ajax({
+    			type:"get",
+    			url:"http://localhost:3000/mockapi",
+    			async:false,
+    			dataType:"jsonp",
+    			success:function(data){
+    				showTable("#table",data);
+    			},
+    			error:function(err){
+    				console.log(err);
+    			}
+    		});
+    		
+    	    function showTable(id,data){
+    	    	    var $tbody = $(id).find("tbody");
+                    var dataArr = data.itemGroup;
+                    $.each(dataArr,function(index,item){
+                    	var $tr = $("<tr></tr>");
+                    	var $td  = $("<td><button class='btn btn-primary'>编辑</button><button class='btn btn-danger'>删除</button></td>")
+                    	$.each(item,function(name,value){
+                    		var $td = $("<td>"+value+"</td>");
+                    		$tr.append($td);
+                    	});
+                    	$tr.append($td);
+                    	$tbody.append($tr);
+                    	
+                    })
+    	    	}
+    	    
+    			
+    	})
+				
+			
+			</script>
+	</body>
+</html>
